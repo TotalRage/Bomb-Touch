@@ -1,0 +1,29 @@
+{
+  "expo": {
+    "name": "Bomb Touch",
+    "slug": "Bomb-Touch",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/bomb-touch-icon.png",
+    "userInterfaceStyle": "dark",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#693131ff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#693131ff"
+      },
+      "edgeToEdgeEnabled": true
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
