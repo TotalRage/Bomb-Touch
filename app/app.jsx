@@ -1,6 +1,6 @@
 import {StyleSheet, Text, View} from "react-native";
 
-const Home = () => {
+const App = () => {
     return (
         <View style={styles.container}>
             <Text>This is the game screen :P</Text>
@@ -8,7 +8,7 @@ const Home = () => {
     )
 }
 
-export default Home
+export default App
 const styles = StyleSheet.create({
     container: {
         flex: 1,
