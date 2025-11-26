@@ -4,6 +4,8 @@ const App = () => {
     return (
         <View style={styles.container}>
             <Text>This is the game screen :P</Text>
+            <Text>This is a test text</Text>
+            <Image source={} style={{width: 50, height: 50}}></Image>
         </View>
     )
 }
@@ -18,6 +20,6 @@ const styles = StyleSheet.create({
     },
     title: {
         fontWeight: 'bold',
-        fontSize: 20
+        fontSize: 40
     }
 });
